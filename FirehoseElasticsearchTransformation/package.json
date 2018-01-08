@@ -1,0 +1,9 @@
+{
+  "name": "firehose_es_transformation",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "dependencies": {
+    "geoip-lite": "1.2.1"
+  }
+}
