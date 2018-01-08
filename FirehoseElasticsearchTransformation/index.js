@@ -10,7 +10,9 @@ exports.handler = (event, context, callback) => {
         // find ip information and transform it to geo ip
         var ip = data["ip"];
         var geo = geoip.lookup(ip);
-        data["location"] = geo.ll;
+        if (geo){
+            data["location"] = geo.ll;
+        }
         return {
             recordId: record.recordId,
             result: 'Ok',
