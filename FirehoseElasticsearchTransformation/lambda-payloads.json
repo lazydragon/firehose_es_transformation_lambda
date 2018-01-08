@@ -4,11 +4,7 @@
             "records": [
                 {
                     "recordId": 123,
-                    "data": {
-                        "ip": "54.240.196.175",
-                        "event": "pay",
-                        "name": "andrew"
-                    }
+                    "data": "eyJuYW1lIjogIldpbGZyZWRvIiwiaXAiOiAiMTk3Ljc2LjI0NS4xMTkiLCJ0aW1lIjogIjIwMTgtMDEtMDhUMTQ6NTE6MjgrMDg6MDAiLCJldmVudCI6ICJwYXkifQo"
                 }
             ]
         }
